@@ -20,8 +20,8 @@ namespace Stride.UI
                 Directory.CreateDirectory("resources");
             }
 
-            File.WriteAllBytes("resources/cacert.pem", Ultralight.cacert);
-            File.WriteAllBytes("resources/icudt67l.dat", Ultralight.icudt67l);
+            File.WriteAllBytes("resources/cacert.pem", UltralightResources.cacert);
+            File.WriteAllBytes("resources/icudt67l.dat", UltralightResources.icudt67l);
         }
     }
 }
